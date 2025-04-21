@@ -1,0 +1,13 @@
+spring.application.name=full-stack-natural-gaskita
+spring.datasource.url=jdbc:mysql://localhost:3306/db_natural_gas
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.username=root
+spring.datasource.password=root
+
+spring.jpa.hibernate.ddl-auto=create
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+application.security.jwt.secret-key=CF83E1357EEFB8BDF1542850D66D8007D620E4050B5715DC83F4A921D36CE9CE47D0D13C5D85F2B0FF8318D2877EEC2F63B931BD47417A81A538327AF927DA3E
+application.security.jwt.expiration=86400000
+application.security.jwt.refresh-token.expiration=604800000

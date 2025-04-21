@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#app {
+    font-family: 'Inter', sans-serif;
+}
+
+/*form valiation*/
+.is-invalid {
+    background-color: #ffebee !important;
+    border-color: #ff1744 !important;
+}
+
+.error-message {
+    color: #ff1744 !important;
+    font-size: 0.875em;
+    display: block;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+}
+/*form valiation*/
+
+/* Router Link Active */
+.router-link-exact-active {
+    color: #6CB52D !important;
+    font-weight: bold !important;
+}
+
+.nav-link.active {
+    color: #6CB52D !important;
+    font-weight: bold !important;
+}
+/* Router Link Active */
+
+#nprogress .bar {
+    background: #6CB52D !important;
+}
+
+#nprogress .spinner-icon {
+    border-top-color: #6CB52D !important;
+    border-left-color: #6CB52D !important;
+}
+
+.dejum {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    color: #6CB52D;
+    font-weight: bold;
+}
+
+/* spinner */
+.spinner-border .text-primary {
+    color: #6CB52D !important;
+}
+/* spinner */
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-1px); }
+}
+
+.badge-animated {
+    /*animation: fadeAndShake 5s ease-in-out;*/
+    animation: shake 1s ease-in-out infinite;
+}
