@@ -109,7 +109,7 @@ Role    : user
 
 **Login with demo user:**
 ```txt
-Email   : user@test.com
+Email   : budhioct@test.com
 Password: password
 ```
 
